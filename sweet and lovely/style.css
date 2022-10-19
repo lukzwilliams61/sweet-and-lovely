@@ -1,0 +1,196 @@
+
+
+
+@import 'animate.css';
+
+
+body{
+    background-image: url(/img/MacBook\ Pro\ 14_\ -\ 8.png);
+    width: fit-content;
+    background-size: cover;
+   
+}
+
+
+
+nav{
+    height: 150px;
+    width: 1980px;
+    left: 10px;
+    position: relative; left: -1px;
+}
+#logo{
+    position: relative; left: 800px;
+    width: 200px;
+}
+
+#pizza{
+    width: 700px;
+    position: relative; left: 1100px; top: 250px;
+    -webkit-animation: spin 10s linear infinite; /* Safari */
+    animation: spin 10s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+#sweet{
+    color: azure; 
+    position: relative; top: -100px; left: 200px;
+    font-size: 60px;
+}
+#the{
+    color: azure; 
+    position: relative; top: -100px; left: 200px;
+    font-size: 20px;
+}
+#wel{
+    position: relative; left: 840px; top: 200px;
+    color: azure;
+    font-size: 60px;
+}
+#pic1{
+width: 600px;
+position: relative; left: 100px; top: 330px;
+border: solid 5px;
+border-color: azure;
+}
+
+#desc{
+    position: relative; left: 760px; top: -70px; 
+    font-size: 50px;
+    color: azure;
+}
+#pizza2{
+    width: 700px;
+    position: relative; left: 1100px; top:200px;
+}
+
+#contact{
+    color: azure;
+    position: relative; top: 500px;
+}
+
+#btnOrder{
+    position: relative; left: 470px;
+    width: 200px;
+    height: 70px;
+    background-color: orangered;
+    border: solid 3px;
+    border-color: azure;
+    color: azure;
+    border-radius: 5px;
+}
+#btnOrder:hover{
+    background-color: azure;
+    border: solid 3px;
+    border-color: orangered;
+    color: orangered;
+    border-radius: 5px;
+}
+    
+
+#btnView{
+    position: relative; left: 30px;
+    width: 200px;
+    height: 70px;
+    background-color: azure;
+    border: solid 3px;
+    border-color: orangered;
+    color: orangered;
+    border-radius: 5px;
+}
+
+#btnView:hover{
+    background-color: orangered;
+    border: solid 3px;
+    border-color: azure;
+    color: azure;
+    border-radius: 5px;
+}
+
+#square{
+    background-color: aqua;
+    width: 300px;
+    height: 400px;
+}
+
+.loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader > img {
+    width: 100px;
+    -webkit-animation: spin 10s linear infinite; /* Safari */
+    animation: spin 10s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+    
+
+}
+
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#cart{
+    position: relative; left: 1650px;
+}
+.card{
+    position: relative; left: -100px; top: 900px;
+}
+#cart1{
+    position: relative; top: 600px; left: 700px;
+    color: azure;
+}
+#card1{
+    position: relative; left: -1600px;
+    
+}
+#card2{
+    position: relative; left: -1000px; top: 270px;
+    
+}
+#card3{
+    position: relative; left: -300px;  top: -350px;
+    
+}
+#btn1{
+    position: relative; left: 100px;
+}
+
+
+    
+  
+
+
